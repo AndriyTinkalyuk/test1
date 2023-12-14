@@ -1,0 +1,65 @@
+img {
+    height: 70px;
+}
+
+
+.wrapper {
+}
+.weather {
+    width: 480px;
+    margin: 0 auto;
+}
+.weather_title {
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.61);
+}
+.weather_day {
+}
+.weather_now {
+    color: rgba(0, 0, 0, 0.733);
+}
+.weather_info {
+    display: flex;
+    gap: 150px;
+}
+.left_column {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+.left_column .weather_text {
+    font-size: 36px;
+    color: rgba(0, 0, 0, 0.733);
+    margin-left: 5px;
+}
+.left_column .weather_text sup{
+    font-size: 16px;
+
+}
+.weather_image {
+}
+.weather_text {
+    color: gray;
+
+}
+.weather_text span {
+    color: rgba(0, 0, 0, 0.816);
+}
+.right_column p{
+    margin: 7px 0px;
+}
+.weather_item {
+    display: flex;
+   align-items: center;
+   justify-content: ;
+   border-top: 1px solid gray;
+   margin-top: 5px;
+}
+.weather__item_day {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.weather__item_day:first-child{
+    width: 100px;
+}
